@@ -30,11 +30,15 @@ figure{
   max-width: 300px;
   background-color: black;
   cursor: pointer;
-
 }
+
 
 .Card-image>figure>img{
   border-radius: 10px;
+}
+
+.Card-image>figure>img:hover{
+filter: invert(100%);
 }
 
 .Card-description{
