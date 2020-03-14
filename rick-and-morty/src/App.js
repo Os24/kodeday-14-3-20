@@ -15,6 +15,11 @@ class App extends React.Component {
                   <img src ={'https://rickandmortyapi.com/api/character/avatar/25.jpeg'}/>
                   </figure>
                 </div>
+                <div className='Card-description'>
+                  <div className='Card-name'>
+                    <h3>Rick sabdjksahdsjkahdjksahdkjsahkd</h3>
+                  </div>
+                </div>
             </div>
           </div>
         </div>

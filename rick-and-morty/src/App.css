@@ -15,6 +15,7 @@ figure{
   flex-direction: column;
   align-items: center;
   padding: 30px;
+  font-size: calc(10px + 2vmin);
 }
 
 .Cards-container{
@@ -28,12 +29,27 @@ figure{
   border-radius: 10px;
   max-width: 300px;
   background-color: black;
+  cursor: pointer;
 
 }
 
 .Card-image>figure>img{
   border-radius: 10px;
 }
+
+.Card-description{
+  padding: 0 30px;
+}
+
+.Card-name{
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+
+
+
+
 
 
 
