@@ -14,7 +14,6 @@ figure{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 30px;
   font-size: calc(10px + 2vmin);
 }
 
@@ -48,6 +47,40 @@ filter: invert(100%);
 .Card-name{
   white-space: nowrap;
   overflow: hidden;
+}
+.Modal{
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color:#000000bf;
+}
+
+.Card-detalle{
+  display: flex;
+  border-radius: 10px;
+  font-size: calc(10px + 2vmin);
+  color:0;
+  top: 0;
+
+}
+.Card-detalle-description{
+  width: 100%;
+  padding: 30px;
+
+}
+.caracteristicas{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.caracteristicas>p{
+  margin: 5px;
+}
+.caracteristicas-valor{
+  color:#17ff75;
 }
 
 
