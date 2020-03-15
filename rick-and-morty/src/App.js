@@ -61,7 +61,7 @@ class App extends React.Component {
       return (
       <div className="App">
         <div className='App-contenedor'>
-          <h1>Hello world</h1>
+          <h1>Rck and morty dex</h1>
           <div className='Cards-container'>
             {cards}
             </div>
